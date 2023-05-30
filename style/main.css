@@ -1,0 +1,42 @@
+/* COLORS
+	--prime: white;
+    --sec: rgb(0, 147, 0);
+    --light: rgb(145, 207, 0);
+    --dark: rgb(0, 66, 94);
+
+    FONTS
+    Special: Bodoni MT
+    Heading: Calibri Bold
+    Text: Bell MT;
+*/
+
+body {
+	margin: 0;
+	background: --prime;
+}
+
+.nav {
+	height: 90px;
+	padding: 0px 72px;
+	display: grid;
+	grid-auto-flow: column;
+}
+
+.title {
+	font: 28pt "Bodoni MT";
+	color: rgb(0, 66, 94);
+	font-style: italic;
+}
+
+.links {
+	display: inline-block;
+	text-align: right;
+	line-height: 90px;
+}
+
+.navlink {
+	font: 12pt "Bodoni MT";
+	text-decoration: none;
+	color: black;
+	padding: 0px 12px;
+}
